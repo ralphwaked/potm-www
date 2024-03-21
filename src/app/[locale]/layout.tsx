@@ -2,6 +2,8 @@ import "~/styles/css/globals.css";
 
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import type { ILocale } from "~/lib/config";
 import { appConfig } from "~/lib/config";
@@ -45,6 +47,8 @@ export default function Layout({ children, params }: LayoutProps) {
         )}
       >
         <>{children}</>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
