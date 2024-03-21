@@ -19,9 +19,9 @@ export function Projects({ projects, locale, title }: Props) {
   return (
     <>
       <div className="mx-auto w-full max-w-2xl px-10 sm:px-0">
-        <h1 className="text-center font-monument text-2xl uppercase sm:text-5xl">
+        <h2 className="text-center font-monument text-2xl uppercase sm:text-5xl">
           {title}
-        </h1>
+        </h2>
         <div className="py-10">
           {projects.map((project, index) => {
             return (

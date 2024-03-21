@@ -59,9 +59,9 @@ export default async function Page({ params }: Props) {
         className="my-10 flex w-full flex-col items-center justify-center"
       >
         <div className="mx-auto w-full max-w-3xl px-10 text-justify sm:px-8">
-          <h1 className="text-center font-monument text-2xl uppercase sm:text-5xl">
+          <h2 className="text-center font-monument text-2xl uppercase sm:text-5xl">
             {t("about_title")}
-          </h1>
+          </h2>
           <div className="py-10">
             <p className="text-xl">{t("about_description")}</p>
           </div>
