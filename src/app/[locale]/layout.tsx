@@ -43,7 +43,7 @@ export default function Layout({ children, params }: LayoutProps) {
         className={cn(
           fontMonument.variable,
           fontNeutralFace.variable,
-          "scrollbar-black overflow-x-hidden overflow-y-scroll bg-black font-neutralFace uppercase text-white scrollbar scrollbar-thumb-zinc-500 scrollbar-thumb-rounded-full scrollbar-w-3",
+          "scrollbar-black overflow-x-hidden overflow-y-scroll bg-black font-neutralFace text-white scrollbar scrollbar-thumb-zinc-500 scrollbar-thumb-rounded-full scrollbar-w-3",
         )}
       >
         <>{children}</>

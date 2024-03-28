@@ -17,7 +17,7 @@ export default async function Page({ params }: Props) {
   const t = await getTranslations("Home");
 
   return (
-    <main className="flex min-h-screen w-screen flex-col items-center justify-start overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <main className="flex min-h-screen w-screen flex-col items-center justify-start overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black uppercase">
       <Particles
         quantity={1000}
         className="absolute inset-0 -z-10 h-full animate-fade-in"
@@ -59,9 +59,9 @@ export default async function Page({ params }: Props) {
         className="my-10 flex w-full flex-col items-center justify-center"
       >
         <div className="mx-auto w-full max-w-3xl px-10 text-justify sm:px-8">
-          <h2 className="text-center font-monument text-2xl uppercase sm:text-5xl">
+          {/* <h2 className="text-center font-monument text-2xl uppercase sm:text-5xl">
             {t("about_title")}
-          </h2>
+          </h2> */}
           <div className="py-10">
             <p className="text-xl">{t("about_description")}</p>
           </div>

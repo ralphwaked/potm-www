@@ -13,7 +13,7 @@ const fr = {
       "Toujours en mouvement pour transformer les idées en créations visuelles exceptionnelles.",
     about_title: "Ce qu'on fait",
     about_description:
-      "Avec un accent sur la fourniture de services de production complets, pour les clients locaux et internationaux tournant en France, nous nous spécialisons dans la garantie d'un processus de production, fluide et réussi, du début à la fin. Notre équipe de professionnels de l'industrie est dédiée à fournir des résultats exceptionnels, quelle que soit la taille ou la portée du projet.",
+      "Notre maison de production audiovisuelle se distingue par son engagement à offrir des services de production complets, répondant aux besoins des clients locaux et internationaux. Nous nous spécialisons dans la garantie d'un processus de production fluide et réussi, de la conception à la réalisation.",
     featured_title: "Projets Phares",
   },
 } satisfies IMessage;

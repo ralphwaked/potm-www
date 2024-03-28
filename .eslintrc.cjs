@@ -25,7 +25,7 @@ const config = {
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:@next/next/core-web-vitals"
+    "plugin:@next/next/core-web-vitals",
   ],
 
   parser: "@typescript-eslint/parser",
@@ -54,9 +54,9 @@ const config = {
       { checksVoidReturn: { attributes: false } },
     ],
     "@typescript-eslint/require-await": "off",
-    
+
     "import/consistent-type-specifier-style": ["error", "prefer-top-level"],
-    
+
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [
       "warn",
@@ -68,7 +68,7 @@ const config = {
     ],
 
     "turbo/no-undeclared-env-vars": "off",
-    
+
     "react/prop-types": "off",
 
     "@next/next/no-html-link-for-pages": "off",
@@ -78,6 +78,7 @@ const config = {
     "**/*.config.js",
     "**/*.config.cjs",
     "**/.eslintrc.cjs",
+    "**/.eslintrc.mdx",
     ".next",
     "dist",
     "bun.lockb",

@@ -1,0 +1,24 @@
+export const allBlogs = [
+  {
+    slug: "test copy",
+    title: "Test",
+    description: "A test description",
+    url: "https://test.com",
+    date: "2023-03-29T00:00:00.000Z",
+    published: true,
+    markdown:
+      "\nTest content Test content Test contentv Test content Test content Test content Test content Test content\n\nTest content\n\nTest content\n",
+  },
+  {
+    slug: "test",
+    title:
+      "Creating a Budget for Your Short Film or Video: French Market Edition",
+    description:
+      "Discover key tips for crafting a successful film budget in the French market. From pre-production to distribution, learn how to allocate funds effectively and bring your vision to life on screen. Ideal for filmmakers navigating the unique challenges of filming in France.",
+    url: "https://test.com",
+    date: "2023-03-28T00:00:00.000Z",
+    published: true,
+    markdown:
+      "\n# Creating a Budget for Your Short Film or Vide in France\n\nBudgeting is a critical aspect of any short film or video project, especially when filming in France. Proper budgeting ensures that every euro is spent wisely and allows for informed decision-making throughout the production process. As you embark on your filmmaking journey in France, it's essential to understand how to create a budget tailored to France.\n\n## Understanding Film Budgets in France\n\nA film budget in France operates similarly to any other project budget. It itemizes all necessary tasks and assigns a cost to each, considering factors such as scope and time. Whether you're working with a modest budget from a part-time job or funding a high-end production, meticulous budget planning is essential.\n\n## Pre-Production: Laying the Foundation\n\nPre-production sets the groundwork for the entire project. Tasks in this phase include location scouting, securing insurance, script fees, and casting director rates. While pre-production expenses are typically lower compared to other phases, they are crucial for ensuring a smooth production process. Allocate approximately 10% of your budget to cover pre-production costs in France.\n\n## Production: Bringing Your Vision to Life\n\nProduction is where a significant portion of the budget is allocated. Costs in this phase include payments to the cast and crew, obtaining location permits, equipment rentals, catering, and lodging. While some expenses are unavoidable, seeking sponsorships for catering can help reduce costs in France. It's also advisable to set aside a contingency fund for unforeseen expenses. Allocate around 35% of your budget for production expenses.\n\n## Post-Production: Refining Your Project\n\nPost-production involves editing, sound design, color correction, and other tasks to refine the project. Budget for expenses such as editor fees, sound mixing, music licensing, and deliverables like Digital Cinema Packages (DCPs) for festival screenings. Despite being equally important as production, post-production is often overlooked in budget planning. Allocate another 35% of your budget for post-production expenses in France.\n\n## Distribution and Marketing: Getting Your Film Seen\n\nOnce your project is complete, it's time to distribute and market it to your target audience in France. Budget for expenses such as website creation, theater screenings, film festival applications, local ad campaigns, and hiring a publicist if needed. While marketing expenses may seem daunting, they are essential for ensuring your film reaches its audience. Allocate approximately 20-30% of your budget for distribution and marketing efforts.\n\n## Tips for Effective Budgeting\n\n- Utilize budget templates and resources available online to streamline the budgeting process in France.\n- Start with a clear understanding of your project's scope and schedule to accurately estimate expenses.\n- Consider all costs involved, including both hard costs (e.g., equipment rentals) and soft costs (e.g., your time).\n- Create a contingency fund to account for unforeseen expenses that may arise during production.\n- Prioritize budget allocations based on the specific needs and goals of your project in France.\n\nBy following these guidelines and allocating your budget wisely, you can ensure that every euro is spent effectively, and that your short film or video project thrives in France.\n\n---\n\nAre you looking for professional assistance in bringing your film project to life in France? At Production on the Move, we specialize in providing comprehensive production services for both local and international clients filming in France. From pre-production to post-production and distribution, our experienced team is dedicated to ensuring a smooth and successful production process. Contact us today to learn more about how we can help you realize your vision.\n",
+  },
+];

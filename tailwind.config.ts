@@ -1,6 +1,8 @@
 import type { Config } from "tailwindcss";
 import typography from "@tailwindcss/typography";
 import scrollbar from "tailwind-scrollbar";
+// @ts-expect-error - no types
+import debug from "tailwindcss-debug-screens";
 
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
@@ -109,5 +111,5 @@ export default {
     },
   },
 
-  plugins: [typography, scrollbar({ nocompatible: true })],
+  plugins: [typography, scrollbar({ nocompatible: true }), debug],
 } satisfies Config;
