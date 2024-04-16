@@ -18,6 +18,14 @@ export const projects: Project[] = [
     link: "https://www.instagram.com/productiononthemove?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
+    title: "Saudi Investment Bank - Paris",
+    image: "saib-paris.jpeg",
+    color: "#FFF",
+    service: "Video Production",
+    service_fr: "Production vidéo",
+    link: "https://www.instagram.com/reel/C5qnln3MFzT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
     title: "Vaishali - Paris Fashion Week 23'",
     image: "vaishali-pfw.png",
     color: "#FFF",
@@ -26,12 +34,12 @@ export const projects: Project[] = [
     link: "https://www.instagram.com/p/CpkLBXSPZ17/",
   },
   {
-    title: "Saoudi Investment Bank",
-    image: "saib.png",
+    title: "Saudi Investment Bank - Dubai",
+    image: "saib-dubai.jpeg",
     color: "#FFF",
     service: "Video Production",
     service_fr: "Production vidéo",
-    link: "https://www.instagram.com/productiononthemove?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    link: "https://www.instagram.com/reel/C5qopDgMd4f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     title: "Häagen Dazs x L'appartement de la Parisienne",
@@ -72,5 +80,5 @@ export const projects: Project[] = [
     service: "Photo + Video Production / Community Management",
     service_fr: "Production photo + vidéo / Gestion de communauté",
     link: "https://www.instagram.com/p/CqDjKQjttwA/?img_index=1",
-  },
+  }
 ];
