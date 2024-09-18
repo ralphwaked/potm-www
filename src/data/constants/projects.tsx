@@ -3,7 +3,7 @@ import type { Project } from "~/lib/types";
 export const projects: Project[] = [
   {
     title: "Qatar National Bank",
-    image: "",
+    image: "qnb.jpg",
     color: "#FFF",
     service: "Video Production",
     service_fr: "Production vidéo",

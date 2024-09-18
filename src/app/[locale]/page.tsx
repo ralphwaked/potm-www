@@ -90,11 +90,11 @@ export default async function Page({ params }: Props) {
           contact@productiononthemove.com
         </Link>
         <p className="text-edge-outline z-10 cursor-default whitespace-nowrap bg-white bg-clip-text text-center font-monument text-xs text-transparent md:text-2xl">
-          <Link href="tel:+33766299466">+33 7 66 29 94 66</Link>
-        </p>
-        <p className="text-edge-outline z-10 cursor-default whitespace-nowrap bg-white bg-clip-text text-center font-monument text-xs text-transparent md:text-2xl">
           <span>Paris - France</span> |{" "}
           <span>Dubai - UAE</span>
+        </p>
+        <p className="text-edge-outline z-10 cursor-default whitespace-nowrap bg-white bg-clip-text text-center font-monument text-xs text-transparent md:text-2xl">
+          <Link href="tel:+33766299466">+33 7 66 29 94 66</Link>
         </p>
       </section>
 
