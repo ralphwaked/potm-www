@@ -2,6 +2,13 @@ import type { Project } from "~/lib/types";
 
 export const projects: Project[] = [
   {
+    title: "Qatar National Bank",
+    color: "#FFF",
+    service: "Video Production",
+    service_fr: "Production vidéo",
+    link: "https://www.instagram.com/reel/C_-dp0dMTkY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
     title: "Uber x Do it in Paris",
     image: "uber.jpg",
     color: "#FFF",
