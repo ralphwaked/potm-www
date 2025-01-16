@@ -95,6 +95,10 @@ export function Modal({ modal: { active, index }, projects }: Props) {
           className="transition-modalSlider absolute h-full w-full"
         >
           {projects.map(({ title, image, color, link }, index) => {
+            if (!image) {
+              return null
+            }
+
             return (
               <Link
                 href={link}
