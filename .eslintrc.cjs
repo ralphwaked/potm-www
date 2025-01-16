@@ -78,7 +78,6 @@ const config = {
     "**/*.config.js",
     "**/*.config.cjs",
     "**/.eslintrc.cjs",
-    "**/.eslintrc.mdx",
     ".next",
     "dist",
     "bun.lockb",

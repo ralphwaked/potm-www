@@ -6,12 +6,3 @@ export interface Project {
   service_fr?: string;
   link: string;
 }
-
-export interface MDXFrontMatter {
-  slug: string;
-  url?: string;
-  title: string;
-  description: string;
-  date: string;
-  published: boolean;
-}

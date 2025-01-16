@@ -10,6 +10,9 @@ import { appConfig } from "~/lib/config";
 import { constructMetadata } from "~/lib/metadata";
 import { cn } from "~/lib/utils";
 import { fontMonument, fontNeutralFace } from "~/styles/font";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { Toaster } from "sonner";
 
 export const revalidate = 0;
 export const runtime = "edge";
@@ -31,10 +34,14 @@ export const viewport: Viewport = {
   colorScheme: "normal",
 };
 
-export default function Layout({ children, params }: LayoutProps) {
+export default async function Layout({ children, params }: LayoutProps) {
   if (!appConfig.i18n.locales.includes(params.locale as any)) {
     notFound();
   }
+
+  const messages = await getMessages({
+    locale: params.locale
+  })
 
   return (
     <html lang={params.locale} suppressHydrationWarning>
@@ -46,7 +53,10 @@ export default function Layout({ children, params }: LayoutProps) {
           "scrollbar-black overflow-x-hidden overflow-y-scroll bg-black font-neutralFace text-white scrollbar scrollbar-thumb-zinc-500 scrollbar-thumb-rounded-full scrollbar-w-3",
         )}
       >
-        <>{children}</>
+        <NextIntlClientProvider messages={messages}
+        >{children}
+        <Toaster />
+        </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />
       </body>

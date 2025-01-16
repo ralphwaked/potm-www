@@ -5,7 +5,7 @@ import scrollbar from "tailwind-scrollbar";
 import debug from "tailwindcss-debug-screens";
 
 export default {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
 
   future: {
     hoverOnlyWhenSupported: true,

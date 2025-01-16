@@ -20,8 +20,6 @@
 
     "baseUrl": ".",
     "paths": {
-      "~/generated-mdx": ["./.generated-mdx/index.ts"],
-
       "~/*": ["./src/*"]
     },
 

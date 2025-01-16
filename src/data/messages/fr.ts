@@ -16,6 +16,21 @@ const fr = {
       "Notre maison de production audiovisuelle se distingue par son engagement à offrir des services de production complets, répondant aux besoins des clients locaux et internationaux. Nous nous spécialisons dans la garantie d'un processus de production fluide et réussi, de la conception à la réalisation.",
     featured_title: "Projets Phares",
   },
+
+  Contact: {
+    title: "Contactez-nous",
+      back: "Retour",
+      form: {
+      firstName: "Prénom",
+      lastName: "Nom",
+      email: "Email",
+      phone: "Numéro de téléphone",
+      message: "Message",
+      submit: "Envoyer",
+      success: "Merci pour votre message. Nous vous répondrons dès que possible.",
+      error: "Une erreur est survenue. Veuillez réessayer plus tard.",
+    }
+  }
 } satisfies IMessage;
 
 export default fr;

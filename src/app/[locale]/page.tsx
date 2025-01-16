@@ -34,7 +34,7 @@ export default async function Page({ params }: Props) {
                 key={item.href}
                 className="text-sm text-zinc-500 duration-500 hover:text-zinc-300"
               >
-                <Link href={item.href}>
+                <Link href={item.href} prefetch>
                   {params.locale === "en" ? item.name : item.name_fr}
                 </Link>
               </li>
@@ -59,9 +59,6 @@ export default async function Page({ params }: Props) {
         className="my-10 flex w-full flex-col items-center justify-center"
       >
         <div className="mx-auto w-full max-w-3xl px-10 text-justify sm:px-8">
-          {/* <h2 className="text-center font-monument text-2xl uppercase sm:text-5xl">
-            {t("about_title")}
-          </h2> */}
           <div className="py-10">
             <p className="text-xl">{t("about_description")}</p>
           </div>
@@ -90,8 +87,7 @@ export default async function Page({ params }: Props) {
           contact@productiononthemove.com
         </Link>
         <p className="text-edge-outline z-10 cursor-default whitespace-nowrap bg-white bg-clip-text text-center font-monument text-xs text-transparent md:text-2xl">
-          <Link href="tel:+33766299466">+33 7 66 29 94 66</Link> |{" "}
-          <Link href="tel:+33749933788">+33 7 49 93 37 88</Link>
+          <Link href="tel:+33766299466">+33 7 66 29 94 66</Link>
         </p>
       </section>
 
@@ -104,7 +100,7 @@ export default async function Page({ params }: Props) {
             <Linkedin />
           </Link>
         </div>
-        <p>© 2024 POTM</p>
+        <p>© {new Date().getFullYear()} POTM</p>
       </footer>
     </main>
   );
